@@ -34,7 +34,6 @@ import androidx.compose.ui.unit.dp
 import com.example.jetnoteapp.R
 import com.example.jetnoteapp.component.NoteButton
 import com.example.jetnoteapp.component.NoteInputText
-import com.example.jetnoteapp.data.NotesDataSource
 import com.example.jetnoteapp.model.Note
 import com.example.jetnoteapp.util.formatDate
 import java.time.format.DateTimeFormatter
@@ -130,5 +129,5 @@ fun NoteRow(
 @Preview(showBackground = true)
 @Composable
 fun NotesScreenPreview(){
-    NoteScreen(notes = NotesDataSource().loadNotes(), onAddNote = {}, onRemoveNote = {})
+//    NoteScreen(notes = NotesDataSource().loadNotes(), onAddNote = {}, onRemoveNote = {})
 }
